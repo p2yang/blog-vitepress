@@ -18,7 +18,7 @@ categories:
 ### 启动画面
 先来看一个启动画面：
 
-![](/blog/images/zsh/fbi.png)
+![](/images/zsh/fbi.png)
 
 哈哈，是不是有一种陌生的熟悉感！
 

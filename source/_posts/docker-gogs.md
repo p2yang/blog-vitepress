@@ -70,7 +70,7 @@ systemctl start gogs
 应用地址：http://git.p2yang.com
 
 访问 git.p2yang.com:10080， 结果如图所示
-![gogs](/blog/images/gogs.png)
+![gogs](/images/gogs.png)
 
 ### 配置nginx反向代理
 nginx 增加配置如下：

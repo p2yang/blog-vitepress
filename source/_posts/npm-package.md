@@ -21,7 +21,7 @@ npm package下载容易，publish也很容易。我们来实践一下吧！
 ## 准备项目
 准备好你想要发布到npm的项目
 新项目请执行 `npm init`。示例如图：
-![](/blog/images/npm/npm-index.png)
+![](/images/npm/npm-index.png)
 
 准备好项目之后，就可以进行登录发布了。
 
@@ -34,7 +34,7 @@ npm package下载容易，publish也很容易。我们来实践一下吧！
 npm addUser
 ```
 执行该命令后，依次输入用户名、密码、邮箱等信息。如图所示：
-![](/blog/images/npm/npm-login.png)
+![](/images/npm/npm-login.png)
 
 以上，登录完成。
 

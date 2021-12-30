@@ -112,7 +112,7 @@ server {
 ## 配置 Webhook
 Webhooks 在 Github 项目的 `Settings` 里。进入其中添加一个新的 webhook，如下图：
 
-![Github webhooks](/blog/images/github-webhook.png)
+![Github webhooks](/images/github-webhook.png)
 
 注意，由于我们上面使用的 `github-webhook-handler` 要求 `Content type` 必须设置成 `application/json`。
 `Payload URL` 和 `Secret` 值与 Server 配置需要保持一致。
@@ -123,7 +123,7 @@ const handler = createHandler({ path: '/deploy', secret: 'xxx' })
 
 当服务全部配置成功后，webhook 的状态如下:
 
-![Github webhook push status](/blog/images/github-webhook-status.png)
+![Github webhook push status](/images/github-webhook-status.png)
 
 ## 初次部署
 第一次部署，需要先在目标服务器上 git clone 下项目代码。

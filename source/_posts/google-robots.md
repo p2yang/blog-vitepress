@@ -40,7 +40,7 @@ User-agent: *
 发布后可使用官方提供的[工具](https://support.google.com/webmasters/answer/6062598?hl=zh-Hans&ref_topic=6061961)进行测试。
 
 实际效果如下：
-![](/blog/images/google-robots.png)
+![](/images/google-robots.png)
 
 ### 参考链接
 1. [Google官方文档](https://support.google.com/webmasters/answer/6062596?hl=zh-Hans&ref_topic=6061961)

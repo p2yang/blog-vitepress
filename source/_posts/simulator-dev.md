@@ -24,11 +24,11 @@ categories:
 2. 打开 Simulator
 	依次选择菜单栏: `Xcode -> Open Developer Tool -> Simulator`，如图：
 
-	![](/blog/images/simulator/open.png)
+	![](/images/simulator/open.png)
 
 	经过初始化后，出现如下界面:
 
-	![](/blog/images/simulator/device.png)
+	![](/images/simulator/device.png)
 
 	可以打开菜单栏: `Hardware -> Device` 选择切换成你想要的系统版本、设备类型。
 
@@ -40,13 +40,13 @@ categories:
 	然后打开 mac 上的 Safari，选择 `开发 -> 模拟器 -> 目标url` 即可打开对应的开发者工具进行调试。
 	（如没有`开发`菜单，请从 Safari 偏好设置里启用此功能。）
 
-	![](/blog/images/simulator/dev.png)
+	![](/images/simulator/dev.png)
 
 4. 选择系统版本
 	默认的 Simulator 支持的 iOS 版本只有一个，此时，我们需要手动到 Xcode 里下载想要的 iOS 版本。
 
 	依次打开 `Xcode -> Preferences -> Components` ，下载目标版本，完成之后重新打开 Simulator，就能从 `Hardware` 里进行切换了。
 
-	![](/blog/images/simulator/components.png)
+	![](/images/simulator/components.png)
 
 以上，就是用 iOS Simulator 调试的基本过程。

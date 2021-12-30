@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 李二夜's Blog
-subtitle: 李二夜's blog
+title: Yang's Blog
+subtitle: Yang's blog
 description: 技术与生活纪事，涵盖react、vue、node、docker、elasticsearch、linux等，前后端兼顾，驰奔架构之路，探索新技术，欢迎交流分享。
-author: 李二夜
+author: Yang
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://p2yang.github.io
-root: /blog
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -82,7 +82,7 @@ include:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:p2yang/blog.git
+  repo: git@github.com:p2yang/p2yang.github.io.git
   branch: master
 
 # 备案号

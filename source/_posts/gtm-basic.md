@@ -20,7 +20,7 @@ Google Tag Manager (下文简称 "GTM") 功能齐全，支持 Google 代码和�
 ## 1. 注册 Container
 填好容器名，选择应用平台。容器名建议以应用平台来命名，这里我使用的是域名 `blog.p2yang.com`。
 
-![GTM Container](/blog/images/gtm/gtm-container.png)
+![GTM Container](/images/gtm/gtm-container.png)
 
 ## 2. 安装
 注册完成后，会自动分配一个 `id`, 并且弹窗提示安装方法，将代码片段插入自己的页面即可。
@@ -49,24 +49,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ## 3. 建 Tag
 这里是有 Google Analytics（以下称 GA） 处理和分析统计的数据，选择 `Google Analytics: Universal Analytics` 新建 Tag，如下图：
-![GTM Tag](/blog/images/gtm/gtm-tag.png)
+![GTM Tag](/images/gtm/gtm-tag.png)
 
 
 ### 3.1 关联 GA 配置
 选择 `Track Type` 选择 `Event`; `Category`, `Action`, `Label` 的值便于识别即可，`Value` 建议填 `1`, 作为单词统计的基数。
-![GTM Tag Config](/blog/images/gtm/gtm-tag-config.png)
+![GTM Tag Config](/images/gtm/gtm-tag-config.png)
 
 ### 3.2 新建变量
 然后，需要关联到 GA, 选择 `New Variable`, 配置 GA 的 Tracking ID （可在 https://analytics.google.com 个人管理中找到）。
 变量创建一次后可以在侧边栏 `Variables` 进行管理。
-![GTM Variable for GA](/blog/images/gtm/gtm-tag-variable.png)
+![GTM Variable for GA](/images/gtm/gtm-tag-variable.png)
 
 命名，保存。
 
 ## 4. 建 Trigger
 创建好 Tag 后需要关联 Trigger。举个例子，我想统计阅读 `Google Tag Manager` 相关文章的 PV 总数，可以选择 `Page View` 类型的 `Track Type`, 然后添加一个触发规则，示图如下：
 
-![GTM Trigger](/blog/images/gtm/gtm-trigger.png)
+![GTM Trigger](/images/gtm/gtm-trigger.png)
 
 追踪类型、触发规则要容易区分我们想要统计的页面或者操作。这个以后再讲。
 
@@ -74,16 +74,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 Tag, Trigger 配置好后，可以点击 “Preview” 开启 Debug 模式进行本地预览。
 
 预览：
-![GTM Preview](/blog/images/gtm/gtm-preview.png)
+![GTM Preview](/images/gtm/gtm-preview.png)
 
 本地 Debug 触发的 Trigger & Tag:
-![GTM Debug](/blog/images/gtm/gtm-debug.png)
+![GTM Debug](/images/gtm/gtm-debug.png)
 
 上报的 Tag 信息：
-![GTM Debug 2](/blog/images/gtm/gtm-debug2.png)
+![GTM Debug 2](/images/gtm/gtm-debug2.png)
 
 GA 统计到的数据：
-![GA](/blog/images/gtm/ga-event.png)
+![GA](/images/gtm/ga-event.png)
 
 调试 OK，推出 Debug，准备发布。
 

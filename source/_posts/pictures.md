@@ -16,7 +16,7 @@ categories:
 ## Brooklyn
 这是一款开源屏保，项目托管在 [Github 官方仓库](https://github.com/pedrommcarrasco/Brooklyn) 上。效果如下：
 
-![Brooklyn](/blog/images/showcase.gif)
+![Brooklyn](/images/showcase.gif)
 
 安装方式参考官方文档。如使用 [`Homebrew`](https://brew.sh/) 安装如下：
 
@@ -27,7 +27,7 @@ brew cask install brooklyn
 ## Fliqlo
 前往 [fliqlo.com](https://fliqlo.com/#/screensaver) 下载 `dmg` 包安装即可。
 
-![Fliqlo](/blog/images/fliqlo.png)
+![Fliqlo](/images/fliqlo.png)
 
 *注：也支持 Windows.*
 

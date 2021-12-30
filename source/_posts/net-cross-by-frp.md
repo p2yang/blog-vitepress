@@ -37,7 +37,7 @@ tar zxvf frp_0.14.1_linux_386.tar.gz
 ```
 
 解压出的文件夹中server和client的配置, 如下图示
-![frp_0.14.1_linux_386](/blog/images/frp/server.png)
+![frp_0.14.1_linux_386](/images/frp/server.png)
 
 这里，我们只需要用到 `frps` 和 `frps.ini` 两个文件。
 

@@ -26,7 +26,7 @@ categories:
 ## SideBarEnhancements -- 侧边栏增强
 默认的侧边栏功能极简，使用该插件应该能满足需求。
 
-![](/blog/images/sublime/sidebar.png)
+![](/images/sublime/sidebar.png)
 
 ## SublimeCodeIntel -- 代码提示
 这个就不用说了吧，效率必备。
@@ -46,9 +46,9 @@ categories:
 ## Git​Gutter -- 显示git信息
 看图：
 
-![](/blog/images/sublime/gitgutter1.gif)
+![](/images/sublime/gitgutter1.gif)
 
-![](/blog/images/sublime/gitgutter2.gif)
+![](/images/sublime/gitgutter2.gif)
 
 
 ## Git blame -- Git 历史问责
@@ -56,28 +56,28 @@ categories:
 
 ## Color Highlighter -- 颜色高亮
 
-![](/blog/images/sublime/colorhighlighte.png)
+![](/images/sublime/colorhighlighte.png)
 
 ## Case Conversion -- 格式转换
 将选中文本转换成目标格式，如 `snake_case`, `SCREAMING_SNAKE_CASE`, `camelCase`, `PascalCase`, `dot.case`等。
 
 ## DocBlockr -- 添加注释
 
-![](/blog/images/sublime/docblockr.gif)
+![](/images/sublime/docblockr.gif)
 
 ## 主题配色
 ### Spacegray
 1. 白色
 
-	![](/blog/images/sublime/spacegray1.png)
+	![](/images/sublime/spacegray1.png)
 
 2. 黑色
 
-	![](/blog/images/sublime/spacegray2.png)
+	![](/images/sublime/spacegray2.png)
 
 ### Material
 
-![](/blog/images/sublime/material.gif)
+![](/images/sublime/material.gif)
 
 ## 结语
 详细安装使用教程都可以在 [packagecontrol.io](https://packagecontrol.io/) 上找到，以上部分截图也是取自官方文档。暂时先记录到这里吧。

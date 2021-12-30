@@ -27,7 +27,7 @@ function() {
 }
 ```
 
-![GTM Variable](/blog/images/gtm/gtm2-variable.png)
+![GTM Variable](/images/gtm/gtm2-variable.png)
 
 下面会有具体应用。
 
@@ -67,4 +67,4 @@ window.dataLayer.push({
 其中 Event Name 可使用正则表达式，如：`[A-Z0-9_]+`。
 注意，需要加一条匹配规则，用来排除官方的事件类型 - `gtm`，示图如下：
 
-![GTM Trigger](/blog/images/gtm/gtm2-trigger.png)
+![GTM Trigger](/images/gtm/gtm2-trigger.png)
