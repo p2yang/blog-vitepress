@@ -6,9 +6,9 @@ export default {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Archives', link: '/archives/' },
-      { text: 'Tags', link: '/tags/' },
-      { text: 'Categories', link: '/categories/' }
+      // { text: 'Archives', link: '/archives/' },
+      // { text: 'Tags', link: '/tags/' },
+      // { text: 'Categories', link: '/categories/' }
     ],
     footer: {
       message: 'Released under the <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> License.',
