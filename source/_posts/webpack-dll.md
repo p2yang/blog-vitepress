@@ -6,6 +6,7 @@ updated: 2020-01-19 22:37:31
 tags:
 - webpack
 categories:
+- webpack
 ---
 
 `Webpack` 内置插件 `DllPlugin` 可以将一些较长时间内、稳定不变的包或组件拆分出来，以 `script` 外链的形式引入页面，以减少 `webpack` 打包时间，长期缓存。本文记录了 Webpack 内置插件 `DllPlugin` 基本应用方法。

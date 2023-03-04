@@ -2,6 +2,7 @@
 title: webpack 配置 react 开发环境
 date: 2017-11-23 22:58:22
 tags:
+- webpack
 ---
 
 webpack 配置错综复杂，每次独立配置也会让我的心情跟着复杂起来。而今再也受不了，拿来即用可以，拿来受罪可不行。便在这里记录一下用 webpack 配置 react 开发的问题和实现过程。

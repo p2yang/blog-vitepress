@@ -4,10 +4,11 @@ comments: true
 date: 2019-03-18 15:10:03
 updated: 2019-03-20 11:17:03
 tags:
-	- node
-	- git
+- node
+- git
+
 categories:
-	- web
+- web
 ---
 
 本文记录了使用 `Github` 的 `Webhooks` 进行网站自动化部署的实践步骤。

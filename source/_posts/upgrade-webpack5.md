@@ -6,6 +6,7 @@ updated: 2022-12-11 17:36:43
 tags:
 - webpack
 categories:
+- webpack
 ---
 
 本文记录了 `webpack@4` 升级 `webpack@5` 步骤和注意事项。

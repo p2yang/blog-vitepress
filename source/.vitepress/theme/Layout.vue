@@ -3,7 +3,7 @@
 import DefaultTheme from 'vitepress/theme'
 
 const { Layout } = DefaultTheme
-const formateDate = date => new Date(date).toDateString()
+const formateDate = date => new Date(date).toLocaleDateString()
 
 </script>
 

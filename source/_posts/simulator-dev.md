@@ -4,11 +4,12 @@ comments: true
 date: 2018-11-06 16:06:40
 updated: 2018-11-06 16:06:40
 tags:
-	- Tool
-	- ios
+- Tool
+- ios
+
 categories:
-	- Tool
-	- ios
+- Tool
+- ios
 ---
 
 低版本 iOS safari 如何调试？在真机难求的情况下，可以用 Mac `iOS Simulator` 进行调试。
