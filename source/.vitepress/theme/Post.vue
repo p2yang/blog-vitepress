@@ -40,10 +40,11 @@ export default {
 	padding: 1.5em 0;
 	line-height: 1.5;
 	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  border-bottom: 1px solid var(--vp-c-divider);
 }
 
 .post + .post {
-  border-top: 1px solid var(--vp-c-divider);
+/*  border-top: 1px solid var(--vp-c-divider);*/
 }
 
 .post-header {
