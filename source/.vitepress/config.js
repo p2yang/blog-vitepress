@@ -3,6 +3,7 @@ export default {
   description: '技术与生活纪事，涵盖react、vue、node、docker、elasticsearch、linux等。',
   author: 'Joe',
   lastUpdated: true,
+  base: '/blog/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
